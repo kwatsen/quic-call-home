@@ -19,8 +19,8 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
+title: "NETCONF Call Home and RESTCONF Call Home Using Quic"
+abbrev: "NC/RC Call Home Using Quic"
 category: info
 
 docname: draft-todo-yourname-protocol-latest
