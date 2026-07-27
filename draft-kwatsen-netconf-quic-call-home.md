@@ -1,7 +1,7 @@
 ---
 title: "NETCONF Call Home and RESTCONF Call Home Using Quic"
 abbrev: "NC/RC Call Home Using Quic"
-category: info
+category: std
 
 docname: draft-kwatsen-netconf-quic-call-home-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
@@ -12,9 +12,10 @@ v: 3
 area: "Operations and Management"
 workgroup: "Network Configuration"
 keyword:
- - next generation
- - unicorn
- - AI-native
+ - NETCONF
+ - RESTCONF
+ - call-home
+ - quic
 venue:
   group: "Network Configuration"
   type: "Working Group"
