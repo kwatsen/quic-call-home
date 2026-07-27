@@ -9,19 +9,19 @@ number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: "Operations and Management"
+workgroup: "Network Configuration"
 keyword:
  - next generation
  - unicorn
  - AI-native
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+  group: "Network Configuration"
+  type: "Working Group"
+  mail: "netconf@ietf.org"
+  arch: "https://mailarchive.ietf.org/arch/browse/netconf/"
+  github: "kwatsen/quic-call-home"
+  latest: "https://kwatsen.github.io/quic-call-home/draft-kwatsen-netconf-quic-call-home.html"
 
 author:
  -
