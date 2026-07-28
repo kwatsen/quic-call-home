@@ -1,0 +1,71 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2026-07-28T02:34:32.046212+00:00",
+  "repo": "kwatsen/quic-call-home",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1,
+      "id": "I_kwDOTlQIsM8AAAABKaNT7g",
+      "title": "Standard PING frame is not secure",
+      "url": "https://github.com/kwatsen/quic-call-home/issues/1",
+      "state": "OPEN",
+      "author": "kwatsen",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "# Issue\n\nStandard PING frame is like an ICMP Echo Request (network ping) or a TCP Keep-Alive. It operates purely at the transport layer to see if the pipe is open.\n\n\n# Possible solution\n\nThe Safe Extension Frame (PING_REQUEST)A cleaner, non-destructive extension would register a new frame type via transport parameters.Negotiation: During the handshake, both peers send a support_ping_request transport parameter.Mechanism: The server sends a new frame PING_REQUEST (0x44). The client is obligated by the extension spec to reply with a PING_REPLY (0x45).\n\n",
+      "createdAt": "2026-07-28T00:21:59Z",
+      "updatedAt": "2026-07-28T00:21:59Z",
+      "closedAt": null,
+      "comments": []
+    }
+  ],
+  "pulls": []
+}
