@@ -9,7 +9,7 @@ Intended status: Standards Track
 Expires: 29 January 2027
 
 
-          NETCONF Call Home and RESTCONF Call Home Using Quic
+          NETCONF Call Home and RESTCONF Call Home Using QUIC
               draft-kwatsen-netconf-quic-call-home-latest
 
 Abstract
