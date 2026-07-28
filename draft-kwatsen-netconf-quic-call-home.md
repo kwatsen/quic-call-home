@@ -2,6 +2,7 @@
 title: "NETCONF Call Home and RESTCONF Call Home Using Quic"
 abbrev: "NC/RC Call Home Using Quic"
 category: std
+updates: 8071
 
 docname: draft-kwatsen-netconf-quic-call-home-latest
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"

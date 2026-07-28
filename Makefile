@@ -1,7 +1,7 @@
-export UPLOAD_EMAIL ?= kent+ietf@watsen.net
-
 LIBDIR := lib
 -include $(LIBDIR)/main.mk
+
+export UPLOAD_EMAIL ?= kent+ietf@watsen.net
 
 $(LIBDIR)/main.mk:
 ifneq (,$(shell grep "path *= *$(LIBDIR)" .gitmodules 2>/dev/null))
