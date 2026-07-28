@@ -28,7 +28,7 @@ author:
  -
     fullname: "Kent Watsen"
     organization: "Watsen Networks"
-    email: "kent@watsen.net"
+    email: "kent+ietf@watsen.net"
 
 normative:
   RFC6520:
