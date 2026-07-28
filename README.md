@@ -1,6 +1,6 @@
 <!-- regenerate: on (set to off if you edit this file) -->
 
-# NETCONF Call Home and RESTCONF Call Home Using Quic
+# NETCONF Call Home and RESTCONF Call Home Using QUIC
 
 This is the working area for the individual Internet-Draft, "NETCONF Call Home and RESTCONF Call Home Using Quic".
 
