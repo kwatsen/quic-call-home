@@ -1,3 +1,5 @@
+export UPLOAD_EMAIL ?= kent+ietf@watsen.net
+
 LIBDIR := lib
 -include $(LIBDIR)/main.mk
 
