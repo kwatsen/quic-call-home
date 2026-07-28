@@ -2,7 +2,7 @@
 
 # NETCONF/RESTCONF Call Home Using QUIC
 
-This is the working area for the individual Internet-Draft, "NETCONF Call Home and RESTCONF Call Home Using Quic".
+This is the working area for the individual Internet-Draft, "NETCONF Call Home and RESTCONF Call Home Using QUIC".
 
 * [Editor's Copy](https://kwatsen.github.io/quic-call-home/#go.draft-kwatsen-netconf-quic-call-home.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-kwatsen-netconf-quic-call-home)

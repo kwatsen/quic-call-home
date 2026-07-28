@@ -1,6 +1,6 @@
 ---
-title: "NETCONF Call Home and RESTCONF Call Home Using Quic"
-abbrev: "NC/RC Call Home Using Quic"
+title: "NETCONF Call Home and RESTCONF Call Home Using QUIC"
+abbrev: "NC/RC Call Home Using QUIC"
 category: std
 updates: 8071
 
