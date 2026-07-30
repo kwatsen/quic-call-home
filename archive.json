@@ -1,6 +1,6 @@
 {
   "magic": "E!vIA5L86J2I",
-  "timestamp": "2026-07-28T02:34:32.046212+00:00",
+  "timestamp": "2026-07-30T02:27:02.182392+00:00",
   "repo": "kwatsen/quic-call-home",
   "labels": [
     {
@@ -55,16 +55,24 @@
       "id": "I_kwDOTlQIsM8AAAABKaNT7g",
       "title": "Standard PING frame is not secure",
       "url": "https://github.com/kwatsen/quic-call-home/issues/1",
-      "state": "OPEN",
+      "state": "CLOSED",
       "author": "kwatsen",
       "authorAssociation": "OWNER",
       "assignees": [],
       "labels": [],
       "body": "# Issue\n\nStandard PING frame is like an ICMP Echo Request (network ping) or a TCP Keep-Alive. It operates purely at the transport layer to see if the pipe is open.\n\n\n# Possible solution\n\nThe Safe Extension Frame (PING_REQUEST)A cleaner, non-destructive extension would register a new frame type via transport parameters.Negotiation: During the handshake, both peers send a support_ping_request transport parameter.Mechanism: The server sends a new frame PING_REQUEST (0x44). The client is obligated by the extension spec to reply with a PING_REPLY (0x45).\n\n",
       "createdAt": "2026-07-28T00:21:59Z",
-      "updatedAt": "2026-07-28T00:21:59Z",
-      "closedAt": null,
-      "comments": []
+      "updatedAt": "2026-07-28T15:16:00Z",
+      "closedAt": "2026-07-28T15:16:00Z",
+      "comments": [
+        {
+          "author": "kwatsen",
+          "authorAssociation": "OWNER",
+          "body": "Wait, not I think it is protected.   In any case, the Security Considerations section says so, so someone will flag it if wrong...",
+          "createdAt": "2026-07-28T15:16:00Z",
+          "updatedAt": "2026-07-28T15:16:00Z"
+        }
+      ]
     }
   ],
   "pulls": []
